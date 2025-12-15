@@ -1,7 +1,8 @@
 __pycache__
-.venv
+.venv/
 *.pyc
 .python-version
 main.py
 .ruff_cache/
 .DS_Store
+dist/

@@ -15,4 +15,13 @@
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Pro100Maks88_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Pro100Maks88_devops-engineer-from-scratch-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Pro100Maks88_devops-engineer-from-scratch-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Pro100Maks88_devops-engineer-from-scratch-project-49)
 
-## Игры разума
+## Игры разума (Brain Games)
+   Набор Brain Games включает пять консольных математических игр. Их цель — развить мышление и проверить математические навыки. Механика проста: в каждой игре нужно безошибочно ответить на три вопроса подряд.
+
+## Коллекция игр 
+   1. **brain-calc** — Вычисление результата выражения
+   2. **brain-even** — Определение четности числа
+   3. **brain-gcd** — Нахождение наибольшего общего делителя
+   4. **brain-prime** — Определение простого числа
+   5. **brain-progression** — Поиск пропущенного числа в арифметической прогрессии
+   

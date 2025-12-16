@@ -1,4 +1,4 @@
-## ![alt text](python_new_look_icon_icon_257065-1.png)Python 
+#### Python 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49/actions)
 

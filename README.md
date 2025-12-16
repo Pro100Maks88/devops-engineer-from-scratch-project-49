@@ -1,4 +1,4 @@
-#### Python 
+#### Python :snake:
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49/actions)
 
@@ -25,11 +25,17 @@
    4. **brain-prime** — Определение простого числа
    5. **brain-progression** — Поиск пропущенного числа в арифметической прогрессии
 
-## минимальные требования
+## Минимальные требования
+   - **Python** версии 3.10 и выше
+   - **pip** или **uv** для управления зависимостями
+   - **Git** для клонирования репозитория
+## Инструкции по установке и запуску
 
-## инструкции по установке и запуску
+## Правила игры
 
+## Знакомство с играми
+  
 #### Автор 
-     Maxim Golovin
-     Проект был создан в рамках обучениюяна платформе Hexlet.
+     ***Maxim Golovin***
+     **Проект был создан в рамках обучениюяна платформе Hexlet.io**
    

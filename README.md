@@ -29,8 +29,34 @@
    - **Python** версии 3.10 и выше
    - **pip** или **uv** для управления зависимостями
    - **Git** для клонирования репозитория
-## Инструкции по установке и запуску
 
+## Инструкции по установке и запуску
+   ### Установка с помощью uv
+
+   ```bash
+   # Клонируйте репозиторий
+   git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
+   cd devops-engineer-from-scratch-project-49
+   # Установите пакет
+   uv tool install .
+   ```
+### Установка с помощью pip
+   ```bash
+   # Клонируйте репозиторий
+   git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
+   cd devops-engineer-from-scratch-project-49
+   # Установите пакет
+   pip install -e .
+   ```
+### Локальный запуск без установки
+   ```bash
+   # Клонируйте репозиторий
+   git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
+   cd devops-engineer-from-scratch-project-49
+
+   # Запуск через uv
+   uv run brain-calc
+   ```
 ## Правила игры
 
 ## Знакомство с играми

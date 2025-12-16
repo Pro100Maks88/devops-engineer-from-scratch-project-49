@@ -1,19 +1,12 @@
 import random
-
 from brain_games.games.start_end import END_RANDOM, START_RANDOM
 
-
 def generate_question():
-    number1 = random.randint(START_RANDOM, END_RANDOM)
-    number2 = random.randint(START_RANDOM, END_RANDOM)
-    question = f"{number1} {number2}"
-    if number1 == 0:
-        correct_answer = number2
-    if number2 == 0:
-        correct_answer = number1
-    else:
-        while number1 != 0 and number2 != 0:
-            number1, number2 = number2, number1 % number2
-        correct_answer = number1
-
+    a, b = random.randint(START_RANDOM, END_RANDOM), random.randint(START_RANDOM, END_RANDOM)
+    question = f"{a} {b}"
+    
+    while a != 0 and b != 0:
+        a, b = b, a % b
+    
+    correct_answer = a if a != 0 else b
     return question, str(correct_answer)

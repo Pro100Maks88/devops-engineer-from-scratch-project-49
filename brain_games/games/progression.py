@@ -1,24 +1,20 @@
 import random
-
 from brain_games.games.start_end import END_RANDOM, START_RANDOM
 
 START_SIZE_RANDOM = 5
-
-
-def generate_progression(start, size, step):
-    progression = []
-    for index in range(0, size + 1):
-        progression.append(str(start + index * step))
-    return progression
-
 
 def generate_question():
     start = random.randint(START_RANDOM, END_RANDOM)
     size = random.randint(START_SIZE_RANDOM, END_RANDOM)
     step = random.randint(START_RANDOM, END_RANDOM)
     index_answer = random.randint(0, size)
-    question = generate_progression(start, size, step)
-    correct_answer = question[index_answer]
-    question[index_answer] = ".."
-    question = " ".join(question)
+    
+    progression = [
+        ".." if i == index_answer else str(start + i * step)
+        for i in range(size + 1)
+    ]
+    
+    question = " ".join(progression)
+    correct_answer = str(start + index_answer * step)
+    
     return question, correct_answer

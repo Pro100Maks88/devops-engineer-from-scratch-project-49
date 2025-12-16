@@ -1,3 +1,4 @@
+## ![alt text](python_new_look_icon_icon_257065-1.png)Python 
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49/actions)
 
@@ -13,3 +14,5 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Pro100Maks88_devops-engineer-from-scratch-project-49&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=Pro100Maks88_devops-engineer-from-scratch-project-49)
 [![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Pro100Maks88_devops-engineer-from-scratch-project-49&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Pro100Maks88_devops-engineer-from-scratch-project-49)
 [![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Pro100Maks88_devops-engineer-from-scratch-project-49&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Pro100Maks88_devops-engineer-from-scratch-project-49)
+
+## Игры разума

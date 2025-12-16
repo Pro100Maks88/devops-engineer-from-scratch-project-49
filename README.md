@@ -37,6 +37,7 @@
    # Клонируйте репозиторий
    git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
    cd devops-engineer-from-scratch-project-49
+
    # Установите пакет
    uv tool install .
    ```
@@ -45,6 +46,7 @@
    # Клонируйте репозиторий
    git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
    cd devops-engineer-from-scratch-project-49
+
    # Установите пакет
    pip install -e .
    ```
@@ -53,15 +55,12 @@
    # Клонируйте репозиторий
    git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
    cd devops-engineer-from-scratch-project-49
-
-   # Запуск через uv
-   uv run brain-calc
    ```
 ## Правила игры
-
+   
 ## Знакомство с играми
   
 #### Автор 
-     ***Maxim Golovin***
-     **Проект был создан в рамках обучениюяна платформе Hexlet.io**
+     ###### Maxim Golovin
+     ###### Проект был создан в рамках обучениюяна платформе Hexlet.io
    

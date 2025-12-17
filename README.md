@@ -35,17 +35,16 @@
 
    ```bash
    # Установите пакетный менеджер uv
-    curl -LsSf https://astral.sh/uv/install.sh | sh
+   curl -LsSf https://astral.sh/uv/install.sh | sh
    
    # Используя менеджер пакетов
-    pipx install uv
+   pipx install uv
 
    # Пользователи MacOS также могут поставить через Homebrew
-
    brew install uv
 
    # Клонируйте репозиторий
-    git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
+   git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
    
    # Перейдите в папку с игрой
    cd devops-engineer-from-scratch-project-49
@@ -53,11 +52,11 @@
    После установки можно запустить игру командой:
    # Запуск игры
    
-   brain-calc - Вычисление результата выражения
-   brain-even - Определение четности числа
-   brain-gcd - Нахождение наибольшего общего делителя
-   brain-prime - Определение простого числа
-   brain-progression - Поиск пропущенного числа в арифметической прогрессии
+   brain-calc #Вычисление результата выражения
+   brain-even #Определение четности числа
+   brain-gcd #Нахождение наибольшего общего делителя
+   brain-prime #Определение простого числа
+   brain-progression #Поиск пропущенного числа в арифметической прогрессии
    ```
 ## :bookmark: Правила игры
    

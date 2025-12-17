@@ -59,6 +59,11 @@
    brain-progression #Поиск пропущенного числа в арифметической прогрессии
    ```
 ## :bookmark: Правила игры
+   ### 1. **Brain-Calc**
+   ### 2. **Brain-Even**
+   ### 3. **Brain-GCD**
+   ### 4. **Brain-Prime**
+   ### 5. **Brain-Progression**
    
 ## :film_strip: Знакомство с играми
   

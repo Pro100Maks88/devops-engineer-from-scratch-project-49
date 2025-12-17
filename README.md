@@ -40,7 +40,9 @@
    cd devops-engineer-from-scratch-project-49
    
    # Установите пакет
-   pip install -e .
+   pip install -e . 
+   # или 
+   uv tool install .
 
    После установки можно запустить игру командой:
    # Запуск игры

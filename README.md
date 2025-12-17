@@ -31,29 +31,23 @@
    - **Git** для клонирования репозитория
 
 ## Инструкции по установке и запуску
-   ### Установка с помощью uv
+   Важно: перед установкой убедитесь, что на вашем компьютере уже установлен Python — сам uv не зависит от Python, но требует Python‑окружения для работы с зависимостями
 
    ```bash
-   # Клонируйте репозиторий
-   git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
-   cd devops-engineer-from-scratch-project-49
+   # Установите пакетный менеджер uv
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+   
+   # Используя менеджер пакетов
+    pipx install uv
 
-   # Установите пакет
-   uv tool install .
-   ```
-### Установка с помощью pip
-   ```bash
-   # Клонируйте репозиторий
-   git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
-   cd devops-engineer-from-scratch-project-49
+   # Пользователи MacOS также могут поставить через Homebrew
 
-   # Установите пакет
-   pip install -e .
-   ```
-### Локальный запуск без установки
-   ```bash
+   brew install uv
+
    # Клонируйте репозиторий
-   git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
+    git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
+   
+   # Перейдите в папку с игрой
    cd devops-engineer-from-scratch-project-49
    ```
 ## Правила игры
@@ -61,6 +55,6 @@
 ## Знакомство с играми
   
 #### Автор 
-     ###### Maxim Golovin
-     ###### Проект был создан в рамках обучениюяна платформе Hexlet.io
+       Maxim Golovin
+       Проект был создан в рамках обучениюяна платформе Hexlet.io
    

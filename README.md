@@ -31,23 +31,16 @@
    - **Git** для клонирования репозитория
 
 ## :closed_book: Инструкции по установке и запуску
-   Важно: перед установкой убедитесь, что на вашем компьютере уже установлен Python — сам uv не зависит от Python, но требует Python‑окружения для работы с зависимостями
 
    ```bash
-   # Установите пакетный менеджер uv
-   curl -LsSf https://astral.sh/uv/install.sh | sh
-   
-   # Используя менеджер пакетов
-   pipx install uv
-
-   # Пользователи MacOS также могут поставить через Homebrew
-   brew install uv
-
    # Клонируйте репозиторий
    git clone https://github.com/Pro100Maks88/devops-engineer-from-scratch-project-49.git
    
    # Перейдите в папку с игрой
    cd devops-engineer-from-scratch-project-49
+   
+   # Установите пакет
+   pip install -e .
 
    После установки можно запустить игру командой:
    # Запуск игры

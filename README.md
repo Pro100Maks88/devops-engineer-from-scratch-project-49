@@ -53,7 +53,7 @@
 
 ## :bookmark: Правила игры
    
-## :television: Знакомство с играми
+## :desktop_computer: Знакомство с играми
   
 #### Автор 
        Maxim Golovin

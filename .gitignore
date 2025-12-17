@@ -1,5 +1,6 @@
 __pycache__
 .venv/
+venv/
 *.pyc
 .python-version
 main.py

@@ -1,6 +1,3 @@
-
-.PHONY: build package-install brain-calc
-
 install:
 	uv sync
 	

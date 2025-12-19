@@ -13,5 +13,3 @@ def generate_question():
     
     correct_answer = a if a != 0 else b
     return question, str(correct_answer)
-
-

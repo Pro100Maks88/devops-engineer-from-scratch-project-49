@@ -27,9 +27,3 @@ brain-progression:
 
 brain-prime:
 	uv run brain-prime
-
-
-	
-
-	
-

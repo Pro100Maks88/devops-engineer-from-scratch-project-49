@@ -1,5 +1,7 @@
 import random
+
 from brain_games.games.start_end import END_RANDOM, START_RANDOM
+
 
 def generate_question():
     number = random.randint(START_RANDOM, END_RANDOM)

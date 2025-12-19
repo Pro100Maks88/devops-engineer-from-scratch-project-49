@@ -4,6 +4,7 @@ from brain_games.games.start_end import END_RANDOM, START_RANDOM
 
 OPERATORS = ("+", "-", "*")
 
+
 def generate_question():
     number1 = random.randint(START_RANDOM, END_RANDOM)
     number2 = random.randint(START_RANDOM, END_RANDOM)
@@ -13,6 +14,7 @@ def generate_question():
     correct_answer = calc(number1, number2, operator)
     
     return question, str(correct_answer)
+
 
 def calc(number1, number2, operator):
     

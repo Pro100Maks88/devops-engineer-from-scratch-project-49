@@ -1,7 +1,9 @@
 import random
+
 from brain_games.games.start_end import END_RANDOM, START_RANDOM
 
 START_SIZE_RANDOM = 5
+
 
 def generate_question():
     start = random.randint(START_RANDOM, END_RANDOM)

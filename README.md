@@ -75,11 +75,19 @@
 
   ***Brain-Even***
 
+  https://asciinema.org/a/Yc3OmGwkJncZUCIQoR70Z6h1h
+
   ***Brain-GCD***
+
+  https://asciinema.org/a/NkpWOtiIpdLzGshQpPV3oxdlk
 
   ***Brain-Prime***
 
+  https://asciinema.org/a/hUeFtE2mHhUXnKGsW4rjlS5AQ
+
   ***Brain-Progression***
+
+  https://asciinema.org/a/ufK3d3jrz6dmUPr1Jajbro3Nd
   
 ###### Автор 
        Maxim Golovin

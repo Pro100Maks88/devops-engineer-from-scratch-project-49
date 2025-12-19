@@ -70,7 +70,7 @@
   В этом разделе можно посмотреть примеры всех игр.
   
   ***Brain-Calc***
-
+  https://asciinema.org/a/65zgBqXDMi9oGNHSObhK8PD9k
   ***Brain-Even***
 
   ***Brain-GCD***

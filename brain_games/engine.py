@@ -19,6 +19,8 @@ def play_game(DESCRIPT, module_with_game):
             )
             print(f"Let's try again, {name}!")
             return
-    print(f"Congratulations, {name}!")
+    else:
+        print(f"Congratulations, {name}!")
+
 
 

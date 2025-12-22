@@ -2,6 +2,7 @@ from brain_games.games.cli import welcome_user
 
 ROUNDS = 3
 
+
 def play_game(DESCRIPT, module_with_game):
     name = welcome_user()
     print(DESCRIPT)

@@ -22,6 +22,3 @@ def play_game(DESCRIPT, module_with_game):
             return
     else:
         print(f"Congratulations, {name}!")
-
-
-

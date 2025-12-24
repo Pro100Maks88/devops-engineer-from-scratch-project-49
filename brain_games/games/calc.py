@@ -1,13 +1,12 @@
 DESCRIPT = "What is the result of the expression?"
 
+
 def generate_question():
-    
     import random
+
     a = random.randint(1, 10)
     b = random.randint(1, 10)
-    op = random.choice(['+', '-', '*'])
+    op = random.choice(["+", "-", "*"])
     question = f"{a} {op} {b}"
     correct_answer = str(eval(question))
     return question, correct_answer
-
-

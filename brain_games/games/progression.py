@@ -4,6 +4,7 @@ from brain_games.games.start_end import END_RANDOM, START_RANDOM
 
 START_SIZE_RANDOM = 5
 
+
 def generate_question():
     start = random.randint(START_RANDOM, END_RANDOM)
     size = random.randint(START_SIZE_RANDOM, END_RANDOM)
@@ -11,8 +12,8 @@ def generate_question():
     index_answer = random.randint(0, size)
 
     progression = [str(start + i * step) for i in range(size + 1)]
-    
-    progression[index_answer] = '..'
+
+    progression[index_answer] = ".."
 
     question = " ".join(progression)
     correct_answer = str(start + index_answer * step)

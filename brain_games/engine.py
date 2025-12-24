@@ -17,6 +17,6 @@ def play_game(DESCRIPT, question_generator):
                 f"Correct answer was '{correct_answer}'."
             )
             print(f"Let's try again, {name}!")
-            return
+    
     else:
         print(f"Congratulations, {name}!")

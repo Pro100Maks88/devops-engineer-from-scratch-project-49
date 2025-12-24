@@ -1,12 +1,22 @@
-DESCRIPT = "What is the result of the expression?"
+import random
+from brain_games.games.start_end import START_RANDOM, END_RANDOM
 
+OPERATORS = ("+", "-", "*")
 
 def generate_question():
-    import random
+    number1 = random.randint(START_RANDOM, END_RANDOM)
+    number2 = random.randint(START_RANDOM, END_RANDOM)
+    operator = random.choice(OPERATORS)
 
-    a = random.randint(1, 10)
-    b = random.randint(1, 10)
-    op = random.choice(["+", "-", "*"])
-    question = f"{a} {op} {b}"
-    correct_answer = str(eval(question))
-    return question, correct_answer
+    question = f"{number1} {operator} {number2}"
+    correct_answer = calc(number1, number2, operator)
+
+    return question, str(correct_answer)
+
+def calc(number1, number2, operator):
+    if operator == "+":
+        return number1 + number2
+    elif operator == "-":
+        return number1 - number2
+    elif operator == "*":
+        return number1 * number2

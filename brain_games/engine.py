@@ -1,13 +1,11 @@
-from brain_games.games.cli import welcome_user
-
 ROUNDS = 3
 
-
-def play_game(DESCRIPT, module_with_game):
+def play_game(DESCRIPT, question_generator):
+    from brain_games.cli import welcome_user
     name = welcome_user()
     print(DESCRIPT)
     for _ in range(ROUNDS):
-        question, correct_answer = module_with_game.generate_question()
+        question, correct_answer = question_generator()
         print(f"Question: {question}")
         user_answer = input("Your answer: ")
 

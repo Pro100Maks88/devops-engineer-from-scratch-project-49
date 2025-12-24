@@ -1,9 +1,7 @@
 import random
-
-from brain_games.games.start_end import END_RANDOM, START_RANDOM
+from brain_games.games.start_end import START_RANDOM, END_RANDOM
 
 OPERATORS = ("+", "-", "*")
-
 
 def generate_question():
     number1 = random.randint(START_RANDOM, END_RANDOM)
@@ -15,7 +13,6 @@ def generate_question():
 
     return question, str(correct_answer)
 
-
 def calc(number1, number2, operator):
     if operator == "+":
         return number1 + number2
@@ -23,3 +20,4 @@ def calc(number1, number2, operator):
         return number1 - number2
     elif operator == "*":
         return number1 * number2
+

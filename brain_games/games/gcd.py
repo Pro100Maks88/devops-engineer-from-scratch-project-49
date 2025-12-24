@@ -1,6 +1,5 @@
 import random
-
-from brain_games.games.start_end import END_RANDOM, START_RANDOM
+from brain_games.games.start_end import START_RANDOM, END_RANDOM
 
 
 def generate_question():
@@ -14,3 +13,4 @@ def generate_question():
 
     correct_answer = a if a != 0 else b
     return question, str(correct_answer)
+

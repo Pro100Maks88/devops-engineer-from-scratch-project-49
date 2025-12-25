@@ -10,6 +10,7 @@ def generate_question():
     correct_answer = "yes" if number % 2 == 0 else "no"
     return question, correct_answer
 
+
 if __name__ == "__main__":
     from brain_games.engine import play_game
     play_game(__name__)

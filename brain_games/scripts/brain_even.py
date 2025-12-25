@@ -3,7 +3,6 @@ def main():
     play_game("brain_games.games.even")
 
 
-
 if __name__ == "__main__":
     main()
 

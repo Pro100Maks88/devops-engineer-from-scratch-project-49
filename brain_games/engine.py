@@ -1,11 +1,11 @@
 ROUNDS = 3
 
-
 def play_game(DESCRIPT, question_generator):
     from brain_games.cli import welcome_user
 
     name = welcome_user()
     print(DESCRIPT)
+    
     for _ in range(ROUNDS):
         question, correct_answer = question_generator()
         print(f"Question: {question}")
@@ -19,6 +19,7 @@ def play_game(DESCRIPT, question_generator):
                 f"Correct answer was '{correct_answer}'."
             )
             print(f"Let's try again, {name}!")
+            return
+    
+    print(f"Congratulations, {name}!")
 
-    else:
-        print(f"Congratulations, {name}!")

@@ -2,6 +2,7 @@ DESCRIPT = "What number is missing in the progression?"
 
 import random
 
+
 def generate_progression():
     
     start = random.randint(1, 20)
@@ -18,6 +19,7 @@ def generate_progression():
     progression[hidden_index] = '..'
     
     return progression, str(correct_answer)
+
 
 def generate_question():
     progression, correct_answer = generate_progression()

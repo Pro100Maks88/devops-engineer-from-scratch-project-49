@@ -2,6 +2,7 @@ DESCRIPT = "What is the result of the expression?"
 
 import random
 
+
 def generate_question():
     a = random.randint(1, 10)
     b = random.randint(1, 10)

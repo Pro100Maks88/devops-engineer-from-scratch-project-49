@@ -2,6 +2,7 @@ DESCRIPT = "Answer 'yes' if the number is prime, otherwise answer 'no'."
 
 import random
 
+
 def is_prime(n):
 
     if n < 2:
@@ -15,6 +16,7 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
 
 def generate_question():
     number = random.randint(2, 50)

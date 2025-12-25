@@ -1,9 +1,8 @@
 DESCRIPT = "What is the result of the expression?"
 
+import random
 
 def generate_question():
-    import random
-
     a = random.randint(1, 10)
     b = random.randint(1, 10)
     op = random.choice(["+", "-", "*"])

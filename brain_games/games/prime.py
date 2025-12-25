@@ -1,23 +1,24 @@
+DESCRIPT = "Answer 'yes' if the number is prime, otherwise answer 'no'."
+
 import random
 
-from brain_games.games.start_end import END_RANDOM, START_RANDOM
+def is_prime(n):
 
-
-def is_prime(number):
-    if number < 2:
+    if n < 2:
         return False
-
-    for i in range(2, int(number**0.5) + 1):
-        if number % i == 0:
+    if n == 2:
+        return True
+    if n % 2 == 0:
+        return False
+    
+    for i in range(3, int(n**0.5) + 1, 2):
+        if n % i == 0:
             return False
-
     return True
 
-
 def generate_question():
-    number = random.randint(START_RANDOM, END_RANDOM)
+    number = random.randint(2, 50)
+    question = str(number)
+    correct_answer = "yes" if is_prime(number) else "no"
+    return question, correct_answer
 
-    if is_prime(number):
-        return number, "yes"
-    else:
-        return number, "no"

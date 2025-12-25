@@ -1,8 +1,14 @@
+DESCRIPT = "Answer 'yes' if the number is even, otherwise answer 'no'."
+
 import random
 
-from brain_games.games.start_end import END_RANDOM, START_RANDOM
-
-
 def generate_question():
-    n = random.randint(START_RANDOM, END_RANDOM)
-    return n, "yes" if n % 2 == 0 else "no"
+    number = random.randint(1, 100)
+    question = str(number)
+    correct_answer = "yes" if number % 2 == 0 else "no"
+    return question, correct_answer
+
+
+
+
+

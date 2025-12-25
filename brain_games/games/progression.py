@@ -1,21 +1,26 @@
+DESCRIPT = "What number is missing in the progression?"
+
 import random
 
-from brain_games.games.start_end import END_RANDOM, START_RANDOM
-
-START_SIZE_RANDOM = 5
-
+def generate_progression():
+    
+    start = random.randint(1, 20)
+    
+    step = random.randint(1, 5)
+    
+    length = random.randint(6, 10)
+    
+    progression = [start + i * step for i in range(length)]
+    
+    hidden_index = random.randint(1, length - 2)
+    correct_answer = progression[hidden_index]
+    
+    progression[hidden_index] = '..'
+    
+    return progression, str(correct_answer)
 
 def generate_question():
-    start = random.randint(START_RANDOM, END_RANDOM)
-    size = random.randint(START_SIZE_RANDOM, END_RANDOM)
-    step = random.randint(START_RANDOM, END_RANDOM)
-    index_answer = random.randint(0, size)
-
-    progression = [str(start + i * step) for i in range(size + 1)]
-
-    progression[index_answer] = ".."
-
-    question = " ".join(progression)
-    correct_answer = str(start + index_answer * step)
-
+    progression, correct_answer = generate_progression()
+    question = ' '.join(map(str, progression))
     return question, correct_answer
+

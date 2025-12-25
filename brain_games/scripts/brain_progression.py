@@ -1,11 +1,8 @@
 from brain_games.engine import play_game
-from brain_games.games.progression import generate_question
-
+import brain_games.games.progression as progression_game
 
 def main():
-    DESCRIPT = "What number is missing in the progression?"
-    play_game(DESCRIPT, generate_question)
-
+    play_game(progression_game)
 
 if __name__ == "__main__":
     main()

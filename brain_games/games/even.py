@@ -2,7 +2,6 @@ DESCRIPT = "Answer 'yes' if the number is even, otherwise answer 'no'."
 
 import random
 
-
 def generate_question():
 
     number = random.randint(1, 100)
@@ -10,14 +9,6 @@ def generate_question():
     correct_answer = "yes" if number % 2 == 0 else "no"
     return question, correct_answer
 
-
-if __name__ == "__main__":
+'''if __name__ == "__main__":
     from brain_games.engine import play_game
-    play_game(__name__)
-
-
-
-
-
-
-
+    play_game(__name__)'''

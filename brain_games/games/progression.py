@@ -1,7 +1,6 @@
-DESCRIPT = "What number is missing in the progression?"
-
 import random
 
+DESCRIPT = "What number is missing in the progression?"
 
 def generate_progression():
     

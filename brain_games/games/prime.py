@@ -1,7 +1,6 @@
-DESCRIPT = 'Answer "yes" if given number is prime. Otherwise answer "no".'
-
 import random
 
+DESCRIPT = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(n):
     if n < 2:

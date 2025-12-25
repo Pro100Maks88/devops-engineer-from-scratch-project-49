@@ -1,7 +1,6 @@
-DESCRIPT = "Find the greatest common divisor of given numbers."
-
 import random
 
+DESCRIPT = "Find the greatest common divisor of given numbers."
 
 def gcd(a, b):
 

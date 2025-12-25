@@ -1,7 +1,6 @@
-DESCRIPT = 'Answer "yes" if the number is even, otherwise answer "no".'
-
 import random
 
+DESCRIPT = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def generate_question():
     number = random.randint(1, 100)

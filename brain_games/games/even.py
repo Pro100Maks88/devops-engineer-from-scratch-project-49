@@ -2,6 +2,7 @@ import random
 
 DESCRIPT = 'Answer "yes" if the number is even, otherwise answer "no".'
 
+
 def generate_question():
     number = random.randint(1, 100)
     question = str(number)
